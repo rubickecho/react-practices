@@ -6,6 +6,7 @@ import './index.css';
 import FunctionComponentRerender from './demos/function-rerender';
 import { CComponent, FComponent } from './demos/function-vs-class/index.jsx';
 import MyComponentWithBoundary from './demos/error-boundray/index.jsx';
+import HOCDemo from './demos/hoc/index.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -16,5 +17,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <FComponent /> */}
 
     <MyComponentWithBoundary></MyComponentWithBoundary>
+
+    <HOCDemo data="Hello HOC" />
+    <HOCDemo data="" />
   </React.StrictMode>
 );
