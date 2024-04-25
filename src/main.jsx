@@ -7,6 +7,8 @@ import FunctionComponentRerender from './demos/function-rerender';
 import { CComponent, FComponent } from './demos/function-vs-class/index.jsx';
 import MyComponentWithBoundary from './demos/error-boundray/index.jsx';
 import HOCDemo from './demos/hoc/index.jsx';
+import StateHookDemo from './demos/hook-useState/index.jsx';
+import UseEffectDemo from './demos/hook-useEffect/index.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -16,9 +18,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <CComponent /> */}
     {/* <FComponent /> */}
 
-    <MyComponentWithBoundary></MyComponentWithBoundary>
+    {/* <MyComponentWithBoundary></MyComponentWithBoundary>
 
     <HOCDemo data="Hello HOC" />
-    <HOCDemo data="" />
+    <HOCDemo data="" /> */}
+
+    {/* <StateHookDemo /> */}
+    <UseEffectDemo></UseEffectDemo>
   </React.StrictMode>
 );
